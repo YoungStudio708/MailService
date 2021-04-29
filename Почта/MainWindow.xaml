@@ -1,0 +1,21 @@
+﻿<Window x:Class="Почта.MainWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+xmlns:local="clr-namespace:Почта"
+mc:Ignorable="d"
+Title="Авторизация" Height="450" Width="643.437">
+    <Grid Background="#FFFFE4E4" Height="420" VerticalAlignment="Bottom">
+        <TextBlock Height="53" Margin="403,108,5,0" TextWrapping="Wrap" Text="Авторизация" VerticalAlignment="Top" TextAlignment="Center" FontSize="22" Foreground="Black" RenderTransformOrigin="0.495,1.283" FontFamily="Segoe Print" FontWeight="Bold" TextDecorations="Underline"/>
+        <TextBlock Height="35" Margin="403,249,5,0" TextWrapping="Wrap" Text="Введите пароль" VerticalAlignment="Top" TextAlignment="Center" FontSize="20"  Foreground="Black" FontFamily="Segoe Script" />
+        <TextBlock Height="31" Margin="403,177,5,0" TextWrapping="Wrap" Text="Введите логин" VerticalAlignment="Top" TextAlignment="Center" FontSize="20" Foreground="Black" FontFamily="Segoe Print"/>
+        <TextBox x:Name="log" Height="31" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="403,213,5,0" Background="{x:Null}" Foreground="Black" FontFamily="Segoe Print"/>
+        <PasswordBox x:Name="pas" Height="32" Margin="403,291,5,0" Password="" VerticalAlignment="Top" Foreground="Black" Background="{x:Null}"/>
+        <Button Content="Авторизироваться" Margin="403,346,5,0" VerticalAlignment="Top" Height="42" Click="Button_Click" Foreground="Black" Background="#FF78C15D" FontFamily="Monotype Corsiva" FontSize="20" FontStyle="Italic" FontWeight="Bold"/>
+        <Image Margin="0,108,0,11" Source="icon1.png" HorizontalAlignment="Left" Width="388"/>
+        <Grid Height="20" VerticalAlignment="Bottom" Background="#FF78C15D" Margin="0,0,0,400"/>
+        <Grid Height="20" VerticalAlignment="Top" Background="#FF78C15D" Margin="0,49,0,0" RenderTransformOrigin="0.501,-0.267"/>
+        <Label Content="Liao Mail-Service " Margin="199,0,200,371" VerticalAlignment="Bottom" Height="29" FontFamily="Monotype Corsiva" FontSize="20" FontWeight="Bold"/>
+    </Grid>
+</Window>
